@@ -1,3 +1,7 @@
+layout: page
+title: "test"
+permalink: /test
+
 # Project Title
 
 A short description about the project and/or client.
