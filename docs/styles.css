@@ -1,11 +1,17 @@
 body {
-	background-color: powderBlue;
+	background-color: #ffdce4;
         font-family: "Lucida Console", "Courier New", monospace;
 }
 h1 {
-	background-color: lightblue; /* Color name */
+	color: gray; /* Color name */
 }
 p {
 	color: #57545a;
 	font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: white;
 }

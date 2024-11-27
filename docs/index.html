@@ -16,16 +16,56 @@
         <!--text color-->
         color: #2020131;
       }
+
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  nav {
+            border: 1px;
+            background-color: pink;
+            color: white;
+            padding: 6px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+
     </style>
 
 </head>
 
 <body>
+<header>
+  
+  <div class="row">
+	<img src="images/logo.png" width="5%" />
+	<h1 style="color:#00246a;">Danny's Dumpster Fire</h1>
+  </div>
+<nav>
+<div class="row">
+  <a href=
+"https://www.geeksforgeeks.org/fundamentals-of-algorithms/">
+            About Me  </a>   |
+        <a href=
+"https://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/">
+            Resume & Transcript</a>   |
+        <a href=
+"https://www.geeksforgeeks.org/quiz-corner-gq/">
+            Thoughts</a>
+</div>
+</nav>
 
-	<nav>
-	<!-- Navigation links go here -->
-	</nav>
-<img src="images/cat.jpg" style="width:100%;">
+  </header>
+
+
 <img src="images/cat.jpg" style="max-width;">
 
 <h1 style="font-size:2.1vw;">Responsive Text</h1>
@@ -52,6 +92,11 @@
 <img src="images/cat.jpg" alt="a cat" style="width:128px;height:128px;">
 
 
+<footer>
+  <p>Author: DMVH</p>
+  <p style="color:white;"><a href="mailto:dmvelaher42@tntech.edu">my email :)</a></p>
+</footer>
 
 </body>
+
 </html>
