@@ -8,11 +8,27 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="default.css">
     <script src="components/header.js" type="text/javascript" defer></script>
+
+    <style>
+        .pdf {
+            width: 75%;
+            aspect-ratio: 4 / 3;
+            /*margin-left: 10%;*/
+        }
+    </style>
     </head>
 
     <body>
         <header-component></header-component>
         <h1>Resume & Transcript</h1>
+        <div id="resume" class="row" style="justify-content: space-around;">
+            <object class="pdf" 
+                data="fallTranscript.pdf"
+                width="800"
+                height="500">
+            </object>
+        </div>
+
 
     </body>
 

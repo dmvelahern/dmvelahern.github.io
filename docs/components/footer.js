@@ -18,6 +18,7 @@ class Footer extends HTMLElement {
             }
 
             .linkSpace a {
+                font-size: 2rem;
                 text-decoration: none;
                 color: #00246a;
             }
@@ -39,17 +40,17 @@ class Footer extends HTMLElement {
             <!-- Footer Name and Year -->
             <div class="row">
                 <div class="linkSpace">
-                    <a href="index.html"><b>Daniela Michelle Vela Hernandez 2024</b></a>
+                    <a style="font-size: 1rem;" href="index.html"><b>Daniela Michelle Vela Hernandez 2024</b></a>
                 </div>
             </div>
 
             <!-- Footer Links -->
             <div class="row">
                 <div class="linkSpace">
-                    <a href="https://www.linkedin.com/in/daniela-vela-hernandez-225894269/">LinkedIn</a>
+                    <a class="aestheticText" href="https://www.linkedin.com/in/daniela-vela-hernandez-225894269/">LinkedIn</a>
                 </div>
                 <div class="linkSpace">
-                    <a href="https://github.com/dmvelahern/dmvelahern.github.io">Github</a>
+                    <a class ="aestheticText" href="https://github.com/dmvelahern/dmvelahern.github.io">Github</a>
                 </div>
             </div>
 

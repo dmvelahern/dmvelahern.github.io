@@ -40,10 +40,6 @@ class Header extends HTMLElement {
           color: black;
         }
         
-        .titleText {
-          font-family: "VT323", monospace;
-          font-size: 2rem;
-        }
 
       </style>
 
@@ -52,17 +48,17 @@ class Header extends HTMLElement {
         <div class="header">
           <div class="row">
             <img src="images/logo.png" width="8%" height="auto"/>
-            <h1 class="titleText" style="color:#00246a;font-size: 3rem;">/home/danny</h1>
+            <h1 class="aestheticText" style="color:#00246a;font-size: 3rem;">/home/danny</h1>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
           </div>
         </div>
 
         <!-- Navigation Bar -->
         <div class="navbar" >
-            <a class="titleText" href="index.html">..</a>
-            <a class="titleText" href="resume.html">/resume</a>
-            <a class="titleText" href="generic.html">/generic</a>
-            <a class="titleText" href="thoughts.html">/thoughts</a>
+            <a class="aestheticText" style="font-size: 2rem;" href="index.html">..</a>
+            <a class="aestheticText" style="font-size: 2rem;" href="resume.html">/resume</a>
+            <a class="aestheticText" style="font-size: 2rem;" href="generic.html">/generic</a>
+            <a class="aestheticText" style="font-size: 2rem;" href="thoughts.html">/thoughts</a>
         </div>
       </header>
     `;
