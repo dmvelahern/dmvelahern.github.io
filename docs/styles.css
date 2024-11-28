@@ -15,3 +15,30 @@ footer {
   background-color: white;
   color: white;
 }
+
+.container {
+  width: 100%;  /* Full width of the parent element */
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 100%; /* Flexible columns that take up 100% on mobile */
+}
+
+@media (min-width: 600px) {
+  .column {
+      flex: 1 1 48%; /* Two columns on tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .column {
+      flex: 1 1 30%; /* Three columns on desktops */
+  }
+}
+

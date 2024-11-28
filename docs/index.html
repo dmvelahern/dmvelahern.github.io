@@ -1,102 +1,170 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <!--The title is what is on the tab where website is open -->
-  <title>Danny's Dumpster Fire</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!--The title is what is on the tab where website is open -->
+    <title>Danny's Dumpster Fire</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
-	<!--Global style-->
+      <!--Global style-->
       html * {
-        font-size: 24px;
-        line-height: 1.625;
-        <!--text color-->
+        font-size: 1rem;
         color: #2020131;
       }
 
-  .row {
-    display: flex;
-  }
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-  nav {
-            border: 1px;
-            background-color: pink;
-            color: white;
-            padding: 6px;
-        }
+      nav {
+          display: block;
+          background-color: pink; /* Dark background color */
+          padding: 10px 0; /* Padding to create space around the links */
+      }
 
-        a {
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-        }
+      /* Style for the list items */
+      .nav-container {
+          max-width: 1200px; /* Maximum width to limit navbar on large screens */
+          margin: 0 auto; /* Center the navigation */
+          padding: 0 20px; /* Padding on the sides */
+      }
 
+      /* Flexbox for aligning navigation items */
+      .nav-list {
+          display: flex;
+          justify-content: center; /* Center align the navigation items */
+          list-style-type: none; /* Remove bullets */
+      }
+
+      /* Styling individual navigation links */
+      .nav-list li {
+          margin: 0 15px; /* Spacing between links */
+      }
+
+      /* Navigation link styles */
+      .nav-list a {
+          text-decoration: none; /* Remove underline */
+          color: white; /* White text color */
+          font-size: 16px; /* Adjust font size */
+          text-transform: uppercase; /* Uppercase letters */
+          transition: color 0.3s, transform 0.3s; /* Smooth hover effect */
+      }
+
+      /* Hover effect */
+      .nav-list a:hover {
+          color: #835e84; /* Change color on hover */
+          transform: scale(1.1); /* Slight zoom effect on hover */
+      }
+
+      /* Responsive design: Stacks the navigation items vertically on small screens */
+      @media (max-width: 768px) {
+          .nav-list {
+              flex-direction: column; /* Stack the links vertically */
+              align-items: center; /* Center align the items */
+          }
+
+          .nav-list li {
+              margin: 10px 0; /* Adjust vertical spacing between links */
+          }
+      }
 
     </style>
 
-</head>
+  </head>
 
-<body>
-<header>
-  
-  <div class="row">
-	<img src="images/logo.png" width="5%" />
-	<h1 style="color:#00246a;">Danny's Dumpster Fire</h1>
-  </div>
-<nav>
-<div class="row">
-  <a href=
-"https://www.geeksforgeeks.org/fundamentals-of-algorithms/">
-            About Me  </a>   |
-        <a href=
-"https://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/">
-            Resume & Transcript</a>   |
-        <a href=
-"https://www.geeksforgeeks.org/quiz-corner-gq/">
-            Thoughts</a>
-</div>
-</nav>
+  <body>
+    <header>
+      
+      <div class="row">
+        <img src="images/logo.png" width="5%" height="auto"/>
+        <h1 style="color:#00246a;">Danny's Dumpster Fire</h1>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <ul class="nav-list">
+            <li><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/">About Me</a></li>
+            <li><a href="https://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/">Resume & Transcript</a></li>
+            <li><a href="https://www.geeksforgeeks.org/quiz-corner-gq/">Thoughts</a></li>
+          </ul>
+        </div>
+      </nav>
 
-  </header>
+    </header>
 
+    <p style="text-align:center;">My name is Danny, and I am a computer scince student in the United States.<br>
+      I am making this website in order to learn more about web development and increase my skillset.<br>
+      If you have made your way here, <em>welcome!</em>
+    </p>
+    <img src="images/cat.jpg" style="max-width;">
 
-<img src="images/cat.jpg" style="max-width;">
+    <h1 style="font-size:2.1vw;">Responsive Text</h1>
 
-<h1 style="font-size:2.1vw;">Responsive Text</h1>
+    <p style="font-size:1.1vw;">Resize the browser window to see how the text size scales.</p>
 
-<p style="font-size:1.1vw;">Resize the browser window to see how the text size scales.</p>
-
-<p style="text-align:center;">helloooooo</p>
-
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-<p>I am normal</p>
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
-
-<h1 style="font-family:verdana;">This is a heading</h1>
-<p style="font-family:courier;">This is a paragraph.</p>
-<p font-family: "Lucida Console", "Courier New", monospace;> hello</p>
-
-<p style="color: blue; font-family: 'Arial', sans-serif;">This is a styled paragraph.</p>
-
-<img src="images/cat.jpg" alt="a cat" style="width:128px;height:128px;">
+    <p style="text-align:center;">helloooooo</p>
 
 
-<footer>
-  <p>Author: DMVH</p>
-  <p style="color:white;"><a href="mailto:dmvelaher42@tntech.edu">my email :)</a></p>
-</footer>
 
-</body>
+    <img src="images/cat.jpg" alt="a cat" style="width:128px;height:128px;">
+    
+    <div class="container">
+      <!-- This is the row that holds columns -->
+      <div class="row">
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the first column -->
+                  <h2>Column 1</h2>
+                  <p>This is the content of the first column.</p>
+              </div>
+          </div>
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the second column -->
+                  <h2>Column 2</h2>
+                  <p>This is the content of the second column.</p>
+              </div>
+          </div>
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the third column -->
+                  <h2>Column 3</h2>
+                  <p>This is the content of the third column.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container" id="test">
+      <!-- This is the row that holds columns -->
+      <div class="row">
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the first column -->
+                  <h2>Column 1</h2>
+                  <p>This is the content of the first column.</p>
+              </div>
+          </div>
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the second column -->
+                  <h2>Column 2</h2>
+                  <p>This is the content of the second column.</p>
+              </div>
+          </div>
+          <div class="column">
+              <div class="item">
+                  <!-- Content for the third column -->
+                  <h2>Column 3</h2>
+                  <p>This is the content of the third column.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Author: DMVH</p>
+      <p style="color:pink;"><a href="mailto:dmvelaher42@tntech.edu">my email :)</a></p>
+    </footer>
+
+  </body>
 
 </html>
