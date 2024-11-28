@@ -1,6 +1,7 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: #ffdce4;
+    overflow: visible;
     
 }
 

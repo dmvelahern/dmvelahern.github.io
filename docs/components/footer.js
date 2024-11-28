@@ -13,7 +13,8 @@ class Footer extends HTMLElement {
             }
             .linkSpace {
                 flex: 10%;
-                padding: 0px;
+                /*padding: 0px;*/
+                padding: 14px 20px;
             }
 
             .linkSpace a {

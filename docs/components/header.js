@@ -21,6 +21,7 @@ class Header extends HTMLElement {
 
         /* Style the top navigation bar */
         .navbar {
+          justify-content: space-around; /* Space out links evenly */
           display: flex;
           background-color: pink;
         }
@@ -38,6 +39,11 @@ class Header extends HTMLElement {
           background-color: #806cb4;
           color: black;
         }
+        
+        .titleText {
+          font-family: "VT323", monospace;
+          font-size: 2rem;
+        }
 
       </style>
 
@@ -45,17 +51,18 @@ class Header extends HTMLElement {
         <!-- Header -->
         <div class="header">
           <div class="row">
-            <img src="images/logo.png" width="5%" height="auto"/>
-            <h1 style="color:#00246a;">Danny's Dumpster Fire</h1>
+            <img src="images/logo.png" width="8%" height="auto"/>
+            <h1 class="titleText" style="color:#00246a;font-size: 3rem;">/home/danny</h1>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
           </div>
         </div>
 
         <!-- Navigation Bar -->
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="generic.html">Generic</a>
-            <a href="thoughts.html">Thoughts</a>
+        <div class="navbar" >
+            <a class="titleText" href="index.html">..</a>
+            <a class="titleText" href="resume.html">/resume</a>
+            <a class="titleText" href="generic.html">/generic</a>
+            <a class="titleText" href="thoughts.html">/thoughts</a>
         </div>
       </header>
     `;
