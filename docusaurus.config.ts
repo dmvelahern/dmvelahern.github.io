@@ -87,7 +87,7 @@ const config: Config = {
                 position: 'left',
             },
             {
-                to: '/docs/research',
+                to: '/docs/research/lifting/gcc_versus_clang',
                 label: '/research',
                 position: 'left',
             },

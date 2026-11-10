@@ -83,7 +83,7 @@ export default function Home() {
               and compiler optimization levels.
             </p>
 
-            <Link to="/docs/research/bcsd/overview">
+            <Link to="/docs/research/lifting/gcc_versus_clang">
               Explore my research →
             </Link>
           </article>
@@ -100,7 +100,7 @@ export default function Home() {
               ARM TrustZone and OP-TEE.
             </p>
 
-            <Link to="/docs/research/tee/overview">
+            <Link to="/docs/research/lifting/gcc_versus_clang">
               Read about the project →
             </Link>
           </article>
